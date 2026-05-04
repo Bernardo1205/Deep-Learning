@@ -81,12 +81,12 @@ def main():
             best_val_loss = val_loss
             early_stopping = True
             # Save best model
-            save_checkpoint(model, best_params, checkpoint_path="model.pt")
+            save_checkpoint(model, best_params, checkpoint_path="models/model.pt")
 
     print(f"\nTraining completed!")
 
     if not early_stopping:
-        save_checkpoint(model, best_params, checkpoint_path="model.pt")
+        save_checkpoint(model, best_params, checkpoint_path="models/model.pt")
 
 
 
@@ -101,7 +101,7 @@ def main():
 
     # Show random evaluations
     print(f"Random test predictions:")
-    run_evaluation("model.pt", num_examples=5, device=DEVICE)
+    run_evaluation("models/model.pt", num_examples=5, device=DEVICE)
 
 
 if __name__ == "__main__":

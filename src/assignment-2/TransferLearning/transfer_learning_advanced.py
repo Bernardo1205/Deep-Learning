@@ -5,7 +5,7 @@ import pandas as pd
 
 
 #Load our model
-base_model = torch.load('../CNN/model.pt')
+base_model = torch.load('../CNN/models/model.pt')
 
 # 2. Freeze the weights (The "Transfer" part)
 for param in base_model.parameters():

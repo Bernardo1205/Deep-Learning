@@ -11,7 +11,7 @@ NUM_CLASSES = 12
 EPOCHS = 50
 DEFAULT_N_TRIALS = 100
 
-STORAGE_DIR = "optuna_study4.db"
+STORAGE_DIR = "db/optuna_study4.db"
 # Device
 DEVICE = "cuda" if __import__("torch").cuda.is_available() else "cpu"
 
