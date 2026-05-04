@@ -3,6 +3,13 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="\.venv\Lib\site-packages\matplotlib\mpl-data\sample_data\Stocks.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\src\assignment-1\dataset\insurance.csv">
           <value>
             <Attribute>
