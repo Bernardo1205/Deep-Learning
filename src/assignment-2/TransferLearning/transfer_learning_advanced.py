@@ -1,3 +1,14 @@
+import matplotlib.pyplot as plt
+from transfer_learning_block import (
+    load_base_model,
+    prepare_transfer_components,
+    train_model_components,
+    get_predictions_components,
+    save_transfer_head,
+    print_transfer_summary,
+    get_device
+)
+
 # 2. Configuración inicial
 device = get_device()
 model_path = "model.pt"
