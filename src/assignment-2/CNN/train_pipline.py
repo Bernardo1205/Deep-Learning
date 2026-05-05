@@ -62,6 +62,7 @@ def main():
     # Loss function
     loss_fn = torch.nn.CrossEntropyLoss()
     early_stopping = False
+    best_val_loss = float("inf")
 
     #Training Process
     for epoch in range(EPOCHS):
