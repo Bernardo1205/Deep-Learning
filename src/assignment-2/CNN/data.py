@@ -24,7 +24,7 @@ def data_loader(data_path, batch_size, transform):
     # Load dataset using ImageFolder
     # ImageFolder automatically creates class labels from subdirectory names
     dataset = ImageFolder(DATASET_DIR / data_path, transform=transform)
-    
+
     # Create DataLoader
     dataloader = DataLoader(
         dataset,
