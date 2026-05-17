@@ -10,7 +10,7 @@ from tune import run_optuna
 
 def run_training_pipeline(
     csv_path: str = "dataset/insurance.csv",
-    model_path: str = "model.pth",
+    model_path: str = "model.pt",
     n_trials: int = 30,
     epochs: int = 50
 ):
