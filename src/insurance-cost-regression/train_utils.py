@@ -17,7 +17,8 @@ def train(model, train_loader, optimizer, loss_fn, device):
        # Compute the loss (Mean Squared Error) between predictions and actual targets
         loss = loss_fn(prediction, target)
 
-        # Backward pass: compute gradients of the loss with respect to all model parameters .This calculates partial derivative of the loss and wights for every weight in the network
+        # Backward pass: compute gradients of the loss with respect to all model parameters .
+        # This calculates partial derivative of the loss and wights for every weight in the network
         loss.backward()
 
         # Update the model parameters using the computed gradients and the learning rate.

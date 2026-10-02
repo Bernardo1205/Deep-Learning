@@ -10,21 +10,7 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\src\assignment-1\dataset\insurance.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\src\assignment-3\dataset\realDonaldTrump_bf_office.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\src\assignment-3\dataset\realDonaldTrump_in_office.csv">
+        <entry key="\src\insurance-cost-regression\dataset\insurance.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
