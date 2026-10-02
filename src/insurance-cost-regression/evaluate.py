@@ -5,7 +5,7 @@ from train_utils import predict
 
 
 
-def run_evaluation(model_path: str = "model.pth", csv_path: str = "dataset/insurance.csv", n_examples: int = 10):
+def run_evaluation(model_path: str = "model.pt", csv_path: str = "dataset/insurance.csv", n_examples: int = 10):
     device = torch.accelerator.current_accelerator().type if torch.accelerator.is_available() else "cpu"
     train_loader, val_loader, test_loader, scaler_x, scaler_y = prepare_data(csv_path=csv_path)
 
